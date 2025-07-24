@@ -17,8 +17,8 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'cumulator'
-copyright = '2025-2024, Günter Pöhl'
+project = 'Cumulator and collectors to calculatie values in various ways'
+copyright = '2025-2025, Günter Pöhl'
 author = 'Günter Pöhl'
 
 version ='0.1.0'
@@ -32,7 +32,7 @@ release = '0.1.0 alpha'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.todo',
+	'sphinx.ext.todo',
  	'sphinx_rtd_theme',
 	'sphinxcontrib.phpdomain',
 ]
@@ -79,6 +79,6 @@ html_context = {
 	"conf_py_path": "/docs/", 
 #	"source_suffix": source_suffix,
 }	
-project_name = '**phpReport**'
+project_name = '**cumulator**'
 rst_epilog = '.. |project_name| replace:: %s' % project_name
 todo_include_todos = True
